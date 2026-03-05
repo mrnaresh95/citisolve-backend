@@ -14,7 +14,7 @@ const app = express();
 
 // app.use(cors());
 app.use(cors({
-  origin: "https://comaplaint-management-system.netlify.app",
+  origin: "https://citisolve-webpage.onrender.com",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
